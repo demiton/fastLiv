@@ -1,2 +1,2 @@
 # fastLiv
-deliver files and folder with a json raodmap
+deliver files and folders with a json roadMap
