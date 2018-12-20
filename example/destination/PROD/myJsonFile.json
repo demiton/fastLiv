@@ -1,0 +1,9 @@
+{
+  "MyJSON": {
+    "MyFirstKey": " SomeThing for Production ",
+    "MySecondKey": {
+      "OneNestedKey": " SomeThingElse for Prod"
+    },
+    "MyThirdKey": ""
+  }
+}

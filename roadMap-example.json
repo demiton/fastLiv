@@ -1,0 +1,31 @@
+{
+  "Source":{
+      "fromUserHome":true,
+      "Path" : "Documents\\Github\\fastLiv\\example\\source",
+      "Files" : ["myFile.txt","myFile-2.txt"],
+      "Folders" : ["dir1"]
+  },
+  "Builds":{
+    "DEV" :{
+      "fromUserHome":true,
+      "Destination":"Documents\\Github\\fastLiv\\example\\destination\\DEV",
+      "Customize":{
+        "myJsonFile.json":{
+          "MyJSON.MyFirstKey": " SomeThing",
+          "MyJSON.MySecondKey.OneNestedKey": " SomeThingElse",
+          "MyJSON.MyThirdKey": " this key have spaces"
+        }
+      }
+    },
+    "PROD" :{
+      "fromUserHome":true,
+      "Destination":"Documents\\Github\\fastLiv\\example\\destination\\PROD",
+      "Customize":{
+        "myJsonFile.json":{
+          "MyJSON.MyFirstKey": " SomeThing for Production ",
+          "MyJSON.MySecondKey.OneNestedKey": " SomeThingElse for Prod"
+        }
+      }
+    }
+  }
+}

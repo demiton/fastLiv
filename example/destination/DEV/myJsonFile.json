@@ -1,0 +1,9 @@
+{
+  "MyJSON": {
+    "MyFirstKey": " SomeThing",
+    "MySecondKey": {
+      "OneNestedKey": " SomeThingElse"
+    },
+    "MyThirdKey": " this key have spaces"
+  }
+}

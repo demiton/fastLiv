@@ -1,0 +1,28 @@
+{
+  "name": "fastliv",
+  "version": "1.0.0",
+  "description": "deliver files and folder thanks to a json roadMap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demiton/fastLiv.git"
+  },
+  "author": "Demiton",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-dir": "^0.4.0",
+    "dotenv": "^6.0.0",
+    "fs-extra": "^7.0.0",
+    "jsonfile": "^4.0.0",
+    "minimist": "^1.2.0",
+    "path": "^0.12.7",
+    "set-value": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/demiton/fastLiv/issues"
+  },
+  "homepage": "https://github.com/demiton/fastLiv#readme"
+}
